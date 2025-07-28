@@ -1,0 +1,9 @@
+[package]
+name = "openxr_mndx_xdev_space"
+version = "0.1.0"
+edition = "2024"
+license = "BSL-1.0"
+keywords = ["openxr", "monado", "vr", "xr", "fbt"]
+
+[dependencies]
+openxr = { version = "0.19.0", default-features = false }
