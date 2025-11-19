@@ -18,6 +18,8 @@ use openxr::{
 
 pub mod bindings;
 
+pub const XR_MNDX_XDEV_SPACE_EXTENSION_NAME: &str = "XR_MNDX_xdev_space";
+
 pub trait SessionXDevExtensionMNDX {
     fn get_xdev_list(&self) -> openxr::Result<XDevList>;
 }
